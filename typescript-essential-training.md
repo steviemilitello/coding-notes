@@ -85,7 +85,7 @@
 - `.d.ts`  and only include type information. They don't produce `.js` outputs, and are only used for typechecking
 - Meanwhile `.ts` files are Implementation files that contain types and executable code. These produce `.js` outputs.
 
-</h1>Resources</h1>
+<h1>Resources</h1>
 
 [TS Config Reference](https://www.typescriptlang.org/tsconfig)
 
