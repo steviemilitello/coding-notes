@@ -87,7 +87,11 @@
 
 <h1>Resources</h1>
 
-[TS Config Reference](https://www.typescriptlang.org/tsconfig)
+<h3>TSConfig Reference</h3>
+
+https://www.typescriptlang.org/tsconfig/
+
+[<img src="https://i.imgur.com/nqYk01k.png" width="700">](https://www.typescriptlang.org/tsconfig/)
 
 <h1>:computer: Technologies Used</h1>
 
