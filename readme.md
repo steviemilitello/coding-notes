@@ -8,4 +8,6 @@
 
 <h1>Note Directory</h1>
 
-[TypeScript Essential Training](typescript-essential-training.md)
+<h3>Typescript Essential Training</h3>
+
+- [Introducing TypeScript to Your Applications](typescript-essential-training/introducting-typescript-to-your-applications.md)
