@@ -16,12 +16,12 @@
 
 <h3>Adding TypeScript to Your Application</h3>
 
-<h4>Install Typescript<h4>
+<h4>Install Typescript</h4>
 
 - Need to compile TypeScript to run it, Need to install TypeScript Compiler 
 - Recommended to install at the project level so each project can run on a different version and one version doesn’t break another
 
-<h4>Adding TypeScript to an Existing Solution<h4>
+<h4>Adding TypeScript to an Existing Solution</h4>
 
 - Add TypeScript configuration file to the root of your Application’s code base called `tsconfig.json`
 - Run the TypeScript Complier with `tsc` in CLI when making changes to `tsconfig`
