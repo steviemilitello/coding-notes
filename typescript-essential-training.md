@@ -58,28 +58,28 @@
 
 <h1>Questions</h1>
 
-<h3>JavaScript is Dynamically Typed - What Does That Mean? 
+<h3>JavaScript is Dynamically Typed - What Does That Mean?</h3>
 
 - Dynamically typed means that the variable is assigned a type at runtime, as opposed to during compile/build
 
-<h3>What is Strong Static Typing? 
+<h3>What is Strong Static Typing?</h3>
 
 - Strong Typing means that variables and other data structures can be declared to be a specific type, like a string or boolean, by the programmer and TypeScript will check the validity of their values
 - Static Typing means that all checks with performed during the compile/build time before we actually execute the program. The opposite is Dynamic Typing which is checked at run time. 
 
-<h3>TypeScript is a Superset of JavaScript - What Does that Mean? 
+<h3>TypeScript is a Superset of JavaScript - What Does that Mean?</h3> 
 
 - TypeScript understands all of JavaScript’s syntax and capability, while adding additional features, such as Static Typing
 
-<h3>What is a Complier? 
+<h3>What is a Complier?</h3> 
 
 - A Complier is a special program that translates a programming language’s source code into machine code or another programming language
 
-<h3>What is Type Checking in TypeScript?
+<h3>What is Type Checking in TypeScript?</h3>
 
 - Type Checking is used to validate the type of any variable. With Typescript, it checked at compile time to check any errors in the code. 
 
-<h3>What are TypeScript Declaration Files? 
+<h3>What are TypeScript Declaration Files?</h3> 
 
 - TypeScript Declaration Files are files that describe the shape of an existing JavaScript codebase to TypeScript 
 - `.d.ts`  and only include type information. They don't produce `.js` outputs, and are only used for typechecking
