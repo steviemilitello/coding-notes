@@ -1,5 +1,5 @@
 <div align="center">
-   <h1>:woman_technologist: TypeScript Essential Training :woman_technologist:</h1>
+   <h1>:woman_technologist: Introducing TypeScript to Your Applications :woman_technologist:</h1>
 </div>
 
 <h1>Introduction</h1>
