@@ -10,4 +10,4 @@
 
 <h3>Typescript Essential Training</h3>
 
-- [Introducing TypeScript to Your Applications](typescript-essential-training/introducting-typescript-to-your-applications.md)
+- [Introducing TypeScript to Your Applications](typescript-essential-training/introducing-typescript-to-your-applications.md)
