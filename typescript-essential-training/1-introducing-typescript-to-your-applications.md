@@ -30,7 +30,7 @@
 
 <h3>Example Configuration File</h3>
 
-```
+```typescript
 {
 	“complierOptions”: {
 		“target”: “ES6”
@@ -47,7 +47,7 @@
 
 <h3>Adding Type Checking to JavaScript</h3> 
 
-- To enable checking of existing JavaScript file add two additional setting to `tsconfig` under `complierOptions`  -  `“allowJS”: true`  and  `“checkJS:: true`
+- To enable checking of existing JavaScript file add two additional setting to `tsconfig` under `complierOptions`  -  `“allowJS”: true`  and  `“checkJS": true`
 
 <h3>Importing Third-Party Types</h3>
 
