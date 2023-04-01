@@ -92,3 +92,58 @@ postalCode: 11111
 }
 ```
 
+<h1>Define Types using Type Aliases</h1>
+
+
+- Provides an alternate name for an already existing type
+- Define by using the type keyword followed by the name of the alias, followed by equal sign and type you need to alias
+- Not a new type, can be used interchangeable with type they alias
+- Type aliases add more meaning to field or variable they are describing
+
+<h3>Example 6</h3>
+
+```typescript
+type ContactName = string
+
+interface Contact extends Address {
+	id: number
+	name: contactName
+	birthDate?: Date
+}
+```
+
+<h1>Defining Enumerable Types</h1>
+
+- Hard list of values, can be defined like this: 
+
+<h3>Example 7</h3>
+
+```typescript
+enum ContactStatus {
+	Active = “active”, 
+	Inactive = “inactive”,
+	New = “new”
+}
+```
+
+- Once defined, can be referred to like any other Type
+- Enums do get compiled with the rest of  the code
+- Allows you to refer to this Types at run time
+- Allows you to use string values in enums
+- Can you any string or number values you like as long as every one of them is the same type
+- Since TypeScript knows all of the possible values, it can give much better autocomplete suggestions and output compilations errors if you use an enum value that doesn’t exist or is spelled wrong
+
+<h3>Example 8</h3>
+
+```typescript
+interface Contact extends Address {
+	id: number
+	name: contactName
+	birthDate?: Date
+	Status: ContactStatus.Active
+}
+```
+
+
+
+
