@@ -10,5 +10,5 @@
 
 <h3>Typescript Essential Training</h3>
 
-- [Introducing TypeScript to Your Applications](typescript-essential-training/introducing-typescript-to-your-applications.md)
+- [Introducing TypeScript to Your Applications](typescript-essential-training/1-introducing-typescript-to-your-applications.md)
 - [Basic TypeScript Usage](typescript-essential-training/2-basic-typescript-usage.md)
