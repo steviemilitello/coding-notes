@@ -144,6 +144,50 @@ interface Contact extends Address {
 }
 ```
 
+<h1>Typing Functions</h1>
+
+
+- Can apply TypeScript to a parameter
+- Since TypeScript infers Types, for many functions you can get away with not referring to a return Type
+- The return Type should match the Type of parameter given into it
+- Can state return Type we return to variables, methods can affect the return type
+
+<h3>Example 9</h3>
+
+```typescript
+function clone(source: Contact): Contact {
+	return Object.apply({}, source)
+}
+```
+
+- Functions can be passed as variables
+- Can provide type information for Function Variables
+
+<h3>Example 10</h3>
+
+```typescript
+function clone(source: Contact, func: (source: Contact) => Contact): Contact {
+	return Object.apply({}, source)
+}
+
+const a: Contact = { id: 123, name: “Jester Lavorre” }
+const b = clone(a)
+```
+
+- You can define a method on an interface
+
+<h3>Example 11</h3>
+
+```typescript
+interface Contact {
+	Id: number
+Name: string
+clone(): Contact
+}
+```
+
+
+
 
 
 
