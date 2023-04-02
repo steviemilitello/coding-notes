@@ -185,6 +185,64 @@ Name: string
 clone(): Contact
 }
 ```
+<h1>Defining a Metatype Using Generics</h1>
+
+- A Generic Type is a metatype, it represents any other Type you might want to substitute in
+- Can replace references to placeholder Type, something that can substitute to a different type each time to function is used
+- Define the Generic Type parameter right the parameter list, you can use any valid type name but the convention is to use `<T>`
+- Can use it to replace any other type in the function’s definition
+- What this is saying is whatever Type is passed in will also be passed out of the function
+
+<h3>Example 11</h3>
+
+```typescript
+function clone<T>(source: T): T {
+	return Object.apply({}, source)
+}
+
+const a: Contact = { id: 123, name: “Jester Lavorre” }
+const b = clone(a)
+```
+
+- You can define as many Generic Type parameters as you wish
+- Have to set explicit when method is called, because TypeScript cannot read multiple as easily
+- Can restrict Types that can be used for Generic Type parameters using the extends keyword
+- The extends keyword doesn’t literally mean the given Type has to derive from the given Type, it just has to match it
+
+<h3>Example 12</h3>
+
+```typescript
+function clone<T1, T2 extends T1>(source: T1): T2 {
+	return Object.apply({}, source)
+}
+
+const a: Contact = { id: 123, name: “Jester Lavorre” }
+const b = clone<Contact, Date>(a)
+
+const dateRange = { startDate: Date.now(), endDate: Date.now() }
+Const dateRangeCopy = clone{dateRange)
+
+```
+
+- Generics can be added to Interfaces and Classes
+
+<h3>Example 13</h3>
+
+```typescript
+Interface UserContact<TExternalId> {
+	id: number
+	name: string
+    username: string
+}
+```
+
+<h1>:computer: Technologies Used</h1>
+
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) 
+
+
+
 
 
 
