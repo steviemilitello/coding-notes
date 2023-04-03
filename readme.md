@@ -15,12 +15,13 @@
 
 <p>This is a repository to keep notes on coding and related technologies. The purpose is to share with other people what I am currently learning and give me a way to organize my knowledge online.</p>
 
-<h1>:memo: Note Directory</h1>
+<h1>:memo: Table of Contents</h1>
 
 <h3>TypeScript Essential Training</h3>
 
 - [Introducing TypeScript to Your Applications](typescript-essential-training/1-introducing-typescript-to-your-applications.md)
 - [Basic TypeScript Usage](typescript-essential-training/2-basic-typescript-usage.md)
+- [Defining More Complex Types](typescript-essential-training/3-defining-more-complex-types.md)
 
 <h1>:white_check_mark: To Do List</h1>
 

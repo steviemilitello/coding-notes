@@ -54,10 +54,12 @@ county: string
 postalCode: string
 }
 
-Type AdressableContact = Contact & Address
+Type AddressableContact = Contact & Address
 ```
 
 - Type aliases much more effect than enums in some cases, because enums add more code, while type aliases can restrict certain values to a field more effectively 
+
+<h3>Example 4</h3>
 
 ```typescript
 type ContactStatus = “active” | “inactive” | “new”
