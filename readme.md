@@ -13,7 +13,8 @@
 
 <h1>:computer: Description</h1>
 
-<p>This is a repository to keep notes on coding and related technologies. The purpose is to share with other people what I am currently learning and give me a way to organize my knowledge online.</p>
+- This is a repository to keep notes on coding and related technologies.
+- The purpose is to share with other people what I am currently learning and give me a way to organize my knowledge online.
 
 <h1>:memo: Table of Contents</h1>
 
