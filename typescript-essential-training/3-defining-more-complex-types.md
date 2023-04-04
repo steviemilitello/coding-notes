@@ -101,7 +101,7 @@ function getValue<T>(source: T, propertyName: keyof T) {
 
 - You can pass in any type for the target object, and TypeScript can readjust to ensure the second parameter so that it is a property name of the first parameter’s Type, no matter what the Type may be 
 
-<h3>Example 8/<h3>
+<h3>Example 8<h3>
 
 ```typescript
 function getValue<T, U extends keyof T>(source: T, propertyName: U) {
