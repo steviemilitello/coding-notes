@@ -18,7 +18,7 @@
 
 <h1>:memo: Table of Contents</h1>
 
-<h3>TypeScript Essential Training<a href="https://www.linkedin.com/learning/typescript-essential-training/"> (Link to Course)</a></h3>
+<h3>TypeScript Essential Training <a href="https://www.linkedin.com/learning/typescript-essential-training/">(Link to Course)</a></h3>
 
 - [Introducing TypeScript to Your Applications](typescript-essential-training/1-introducing-typescript-to-your-applications.md)
 - [Basic TypeScript Usage](typescript-essential-training/2-basic-typescript-usage.md)
