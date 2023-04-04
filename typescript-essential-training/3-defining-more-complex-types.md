@@ -65,3 +65,49 @@ Type AddressableContact = Contact & Address
 type ContactStatus = “active” | “inactive” | “new”
 ```
 
+<h1>Keyof Operator</h1>
+
+
+- Can be used to reference fields of a given type
+
+<h3>Example 5</h3>
+
+```typescript
+Type ContactFields = keyof Contact
+```
+
+- This is say that a variable of this type may only contain values matching the names of the properties on the Type
+- This includes any fields now as well as any fields we may reference in the future
+- Much like Union Types, they are only available at compile time and actually compiled into your running code, not available at runtime
+
+<h3>Example 6</h3>
+
+```typescript
+function getValue(source, propertyName: keyof Contact) {
+	return source[propertyName]
+}
+```
+
+- Keyof limits the values of the parameter to valid property names of the Type, TypeScript can quickly highlight mistakes as invalid values
+- Has nothing to do with the Types specifically, so sometimes refactoring to a Generic function can make sense
+
+<h3>Example 7</h3>
+
+```typescript
+function getValue<T>(source: T, propertyName: keyof T) {
+	return source[propertyName]
+}
+```
+
+- You can pass in any type for the target object, and TypeScript can readjust to ensure the second parameter so that it is a property name of the first parameter’s Type, no matter what the Type may be 
+
+<h3>Example 8/<h3>
+
+```typescript
+function getValue<T, U extends keyof T>(source: T, propertyName: U) {
+	return source[propertyName]
+}
+```
+
+- A second Type has been introduced that be referred later in the function, this also makes it a cleaner version of the function
+
