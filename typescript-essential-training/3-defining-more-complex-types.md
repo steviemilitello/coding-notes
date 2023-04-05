@@ -111,3 +111,25 @@ function getValue<T, U extends keyof T>(source: T, propertyName: U) {
 
 - A second Type has been introduced that be referred later in the function, this also makes it a cleaner version of the function
 
+<h1>Typeof Operator</h1>
+
+
+- A JavaScript feature that been around for a long time
+- Although we can understand what the parameter should be, TypeScript can’t. Static Typing can be added to fix this
+- When the Type is specified, TypeScript can make much smarter inferences with `typeof`
+- TypeScript also also allows you to use `typeof` to define static Types dynamically
+
+<h3>Example 9</h3>
+
+```typescript
+const myType = { min: 1, max: 200 }
+
+function save(source: typeof myType) {}
+```
+
+- Can be used to refer to the same Type later
+- Can make sure that anytime some tries to call a function, the parameter can match the same structure as what is defined in the variable
+- An explicit Interface or Type Alias can do this in most cases, but sometimes typeof is a helpful shortcut
+- Can be useful when writing dynamic code that accepts values of types you don’t know about until runtime
+
+
