@@ -132,4 +132,76 @@ function save(source: typeof myType) {}
 - An explicit Interface or Type Alias can do this in most cases, but sometimes typeof is a helpful shortcut
 - Can be useful when writing dynamic code that accepts values of types you don’t know about until runtime
 
+<h1>Indexed Access Types</h1>
+
+
+- Used to determine the Type of a certain property or multiple properties of a target object
+- Same as JavaScript syntax for accessing a property of an object using the index syntax
+
+<h3>Example 10</h3>
+
+```typescript
+type Awesome = Contact[“id”]
+```
+
+- Types happen to be the same, but no different connection between the two
+
+<h3>Example 11</h3>
+
+```typescript
+type Awesome = Contact[“id”]
+
+Interface ContactEvent {
+           contactId: Contact[“id”]
+
+interface ContactDeletedEvent extends ContactEvent {
+}
+
+Interface ContactStatusChangedEvent extends ContactEvent {
+          oldStatus: Contact[“status”]
+          newStatus: Contact[“status”]
+}
+
+Interface ContactEvents {
+         deleted : ContactDeletedEvent
+         statusChanged: ContactStatusChangedEvent
+         // …. And so on
+}
+```
+
+- Not only can use this syntax to reference the properties, but the properties of those properties
+
+<h3>Example 12</h3>
+
+```typescript
+type Awesome = Contact[“id”][“postalcode”]
+```
+
+- TypeScript can determine the Type of the parameter even if not specified in a call if index access is used
+- TypeScript is also smart enough to figure out the Types inside the method as well
+- Can help product powerful and advanced Type checking
+
+<h3>Example 13</h3>
+
+```typescript
+function getValue<T, U extends keyof T>(source: T, propertyName: U) {
+	return source[propertyName]
+}
+
+function handleEvent<T extends keyof ContactEvents>(
+           eventName: T
+           handler: evt: ContactEvents[T] => void
+) {
+           if (eventName === “statusChanged”) {
+                    handler({contactId: 1, oldStatus: “active”, newStatus: “inactive” } as ContactDeletedEvent)
+       }
+
+}
+
+handleEvent(“statusChanged”, evt => evt)
+
+```
+
+
+
 
