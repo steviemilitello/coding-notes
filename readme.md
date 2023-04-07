@@ -23,6 +23,7 @@
 - [Introducing TypeScript to Your Applications](typescript-essential-training/1-introducing-typescript-to-your-applications.md)
 - [Basic TypeScript Usage](typescript-essential-training/2-basic-typescript-usage.md)
 - [Defining More Complex Types](typescript-essential-training/3-defining-more-complex-types.md)
+- [Extending and Extracting Metadata from Existing Types](typescript-essential-training/4-extending-and-extracting-metadata-from-existing-types.md)
 
 <h1>:white_check_mark: To Do List</h1>
 
