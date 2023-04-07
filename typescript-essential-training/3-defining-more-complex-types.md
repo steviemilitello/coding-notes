@@ -202,6 +202,29 @@ handleEvent(“statusChanged”, evt => evt)
 
 ```
 
+<h1>Defining Dynamic But Limited Types with Records</h1>
+
+
+- Useful when you want to extend an object with properties that don’t exist on the Type that TypeScript originally inferred
+- Defining a variable with the any Type is opting out of Type safety all together
+- There is a TypeScript configure setting that allows you to trigger a compile error whenever any is applied
+- When alternative you can apply to still retain some of the flexibility and dynamism of the any type is the record type
+- The `record` type is a flexible Type structure that allows you to define some structure and even some Typing without having to detail everything possible property of the type you’re trying to describe
+- Record is a Generic syntax with two parameters. The first is the possible property values while the second is the possible property types
+- Can add a union to add to the second parameter
+
+<h3>Example 14</h3>
+
+```typescript
+let x: Record<string, string | number | boolean | Function> = { name: “Bruce Wayne” }
+x.number = 1234
+x.active = “true”
+x.log = () => console.log(“awesome!”)
+
+```
+
+
+
 
 
 
