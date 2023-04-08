@@ -20,11 +20,13 @@
 
 <h3>TypeScript Essential Training <a href="https://www.linkedin.com/learning/typescript-essential-training/">(Link to Course)</a></h3>
 
-- [Introducing TypeScript to Your Applications](typescript-essential-training/1-introducing-typescript-to-your-applications.md)
-- [Basic TypeScript Usage](typescript-essential-training/2-basic-typescript-usage.md)
-- [Defining More Complex Types](typescript-essential-training/3-defining-more-complex-types.md)
-- [Extending and Extracting Metadata from Existing Types](typescript-essential-training/4-extending-and-extracting-metadata-from-existing-types.md)
+| #   | Name                                                                                                                                              |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 001 | [Introducing TypeScript to Your Applications](typescript-essential-training/1-introducing-typescript-to-your-applications.md)                     |
+| 002 | [Basic TypeScript Usage](typescript-essential-training/2-basic-typescript-usage.md)                                                               |
+| 003 | [Defining More Complex Types](typescript-essential-training/3-defining-more-complex-types.md)                                                     |
+| 004 | [Extending and Extracting Metadata from Existing Types](typescript-essential-training/4-extending-and-extracting-metadata-from-existing-types.md) |
 
 <h1>:white_check_mark: To Do List</h1>
 
-- [ ] TypeScript Essential Training - In Progress 
+- [ ] TypeScript Essential Training - In Progress
