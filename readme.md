@@ -1,3 +1,9 @@
+<div id="header" align="center">
+
+  <img src="https://i.imgur.com/v2YYEF9.png" height="400">
+
+</div>
+
 <div align="center">
    <h1>:woman_technologist: Coding Notes :woman_technologist:</h1>
    <a href="http://steviecodes.com" target="_blank">
