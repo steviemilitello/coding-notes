@@ -1,12 +1,12 @@
 <div align="center">
    <h1>:woman_technologist: Coding Notes :woman_technologist:</h1>
+
 <div id="header" align="center">
 
   <img src="https://i.imgur.com/v2YYEF9.png" width="800">
 
 </div>
-<h1>:link: Links</h1>
-<div>
+
    <a href="http://steviecodes.com" target="_blank">
       <img src="https://img.shields.io/badge/-Portfolio_-darkgreen?style=for-the-badge&logo=medium"/>
    </a>
