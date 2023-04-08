@@ -1,6 +1,6 @@
 <div id="header" align="center">
 
-  <img src="https://i.imgur.com/v2YYEF9.png" height="400">
+  <img src="https://i.imgur.com/v2YYEF9.png" width="800">
 
 </div>
 
