@@ -168,3 +168,4 @@ const filteredContacts = searchContacts(
 )
 ```
 
+<h1>Extracting Metadata from Existing Types</h1>
