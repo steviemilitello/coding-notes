@@ -28,6 +28,13 @@
 | 003 | [Defining More Complex Types](typescript-essential-training/3-defining-more-complex-types.md)                                                     |
 | 004 | [Extending and Extracting Metadata from Existing Types](typescript-essential-training/4-extending-and-extracting-metadata-from-existing-types.md) |
 
+<h3>Algorithms and Data Structures <a href="https://www.youtube.com/watch?v=8hly31xKli0">(Link to Course)</a></h3>
+
+| #   | Name                                                                                                                                              |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 001 | [Introduction to Algorithms](algorithms-and-data-structures/1-introduction-to-algorithms.md)                                                      |
+
 <h1>:white_check_mark: To Do List</h1>
 
 - [ ] TypeScript Essential Training - In Progress
+- [ ] Algorithms and Data Structures - In Progress
